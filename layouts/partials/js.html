@@ -1,3 +1,2 @@
-<!--
-    for user-side override
--->
+{{- $js := . -}}
+<script src="{{- $js.RelPermalink -}}" integrity="{{- $js.Data.Integrity -}}"></script>

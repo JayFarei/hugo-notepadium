@@ -1,30 +1,9 @@
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
+  font-family: 'Arbutus Slab';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+  src: local('Arbutus Slab Regular'), local('ArbutusSlab-Regular'), url(https://fonts.gstatic.com/s/arbutusslab/v8/oY1Z8e7OuLXkJGbXtr5ba7ZlbKUZ.ttf) format('truetype');
 }
 
 @font-face {
@@ -85,10 +64,7 @@
 }
 
 html {
-  font-family: Lato, system-ui, -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', 'Segoe UI', 
-                Ubuntu, Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans',
-                'Helvetica Neue', Helvetica, Arial, Verdana, 'Lucida Grande', 
-                sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: 'Arbutus Slab', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 code,

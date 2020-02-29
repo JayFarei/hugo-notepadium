@@ -1,5 +1,4 @@
 {{- $paginator := . -}}
-
 {{- if gt $paginator.TotalPages 0 -}}
 {{- $dateFormat := site.Params.dateFormat -}}
 {{- if not $dateFormat -}}{{- $dateFormat = "2006-01-02" -}}{{- end -}}
@@ -26,7 +25,18 @@
                 </span>
             {{- end -}}
         </a>
-        {{- partial "note-labels.html" . -}}
+        {{- if or .Params.categories .Params.tags -}}
+            <p class="note labels">
+                {{- range .Params.categories -}}
+                {{- $url := print "/categories/" (. | urlize) "/" -}}
+                <a class="note category" href="{{- $url | relLangURL -}}"><span class="hashtag">#</span>{{- . -}}</a>
+                {{- end -}}
+                {{- range .Params.tags -}}
+                {{- $url := print "/tags/" ( . | urlize) "/" -}}
+                <a class="note tag" href="{{- $url | relLangURL -}}"><span class="hashtag">#</span>{{- . -}}</a>
+                {{- end -}}
+            </p>
+        {{- end -}}
     </li>
     {{- end -}}
 </ul>
