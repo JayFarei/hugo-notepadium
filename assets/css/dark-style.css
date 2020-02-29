@@ -59,6 +59,10 @@ a {
   color: #e5c07b;
 }
 
+p {
+  font-size: 15px;
+}
+
 .pagination ul li a {
   color: #D19A66;
   border-radius: 5px;
