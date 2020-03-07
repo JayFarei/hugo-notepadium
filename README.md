@@ -11,3 +11,5 @@ Fork of https://github.com/cntrump/hugo-notepadium
 - editing language on copyright
 - adding _index.md support
 - re-arranging head.html
+- added fullRss support
+- added github navItem & icon
