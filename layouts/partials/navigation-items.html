@@ -10,9 +10,14 @@
     {{- range $nav.custom -}}
         {{- $url := .url | safeURL -}}
         {{- if strings.HasPrefix $url "/" -}}{{- $url = $url | relLangURL -}}{{- end -}}
-        <a class="nav item" href="{{- $url -}}" 
+        <a class="nav item" href="{{- $url -}}"
             {{- if strings.HasPrefix $url "http" -}}target="_blank"
             {{- end -}}>{{- .title -}}</a>
     {{- end -}}
+    <a class="nav item" href="https://github.com/jayfarei" target="_blank"><span class="iconfont icon-logo_github"></span>&nbsp;Github</a>
+
 </nav></div>
 {{- end -}}
+
+
+

@@ -1,0 +1,22 @@
+@font-face {font-family: "iconfont";
+    src: url('/fonts/iconfont/iconfont.eot?t=1577922877079'); /* IE9 */
+    src: url('/fonts/iconfont/iconfont.eot?t=1577922877079#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQsAAsAAAAACEgAAAPfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEKINqATYCJAMMCwgABCAFhG0HPxs5B8iemjxBhNlgNgBQBfkIhEVQjZU9u/sAqADle7akEBVFGJRRrBSSsSkfdil/85+b/hAq4qmZAHWJ4OGFUBE7oVMTOE3Ebm2XC1mkDWGTvOyPe1UzFuDHrGfJdpljcigXwHCAAjTG7NggBW5BCuRdDmdehUfXeQL1hoWAlvNKKoGhgkwLxCWPaAOGKbNSUxtqheqStUU8Anpq0wPGHcBD//fjr6gwJKnKyNz1i1wUZPzw+FgPD/8f1uiigGQ8J8RNZMwACnFQ6t4Ch+kZsHpdzawvrVaENFbs/398saGtXuk/XiKqEXUj4CeMyUlJbAbBr3oRaJz/JqpRg+cA+A/4zkS16LOiDWZmy22z1VotQ0ZqdDpkrurpU2S48skTR+/sE0Iafkqa05FGtO/bOBuntLdXKlUqO8XJ46cdVAqF3FZ+I8a2egRSKiHovsoBUigAeCavmVXGak5dWYmcNWvP7qBkpZUNY++5VQVVP9E67Ntlu2u73dGz4OJT/9WrHdCB1esPBys3hY9crbo+l6u7DvZusN150G0ZxYq9TpXDCv/F7aN9X/3k7YqVebGQnh6E5VV2iHEi7J5ulmeZ56Eg27O72zGWHUruweruYSOlXnqbI0umEwSC+Gk1FniO6Xg1CECRkMIkfFECy9aNox0fR8MXf9MTly882tbxZzENjTodaak5DsCt90a5RqeG/b6Gu34H2R+OnqJ/r3W/x63sEIPsPajH3l/onkqPfSDuLqTZ/WEmHPpeB1b2zNJy7PSXWBXh488AqxpGl9UcZn8jPMQcqCkgLRhvMgPEnWKnz3GGxU1BzQATvluxH4d5s87C7fpvMRO++wOkYV4M6BssLFA4AlApH4fj/ez5Vi7623/jX8UL3xaLlH+GCvgeXZ4KwUoFtPMCte/CE/xbScuWYsiIJRdNbIutSHbt/zkTIJTsKtjf7nl/bVfrakKtrhiSGkOQ1RpBF/wMVGkwC9VqzUG9afmbG3SgwKLUYcoEgtBqPyTNvkDW6i664J9BlW7foFprwFBvI2z2bDAWPONsCmujMRRp70F4HaQYZzbaOKgtxwiZsI1KynxyNUZJeTEkMiwim8vHxBg1xgJpJxFF0ziCU6QIyUOXYUIhiUgoko910GFcmpYkhYfjZV8U1kGKgLElFEwbGgaFaNcDwdOBJIa7nWnGuZ8vhyHICLWhaprq/NUwFCle74hIYSJaoPPV4lZN1/ISqU6EKDQaDoGjkEQQeciJEdI0CSEpH8WH6UALw+2RlEgSjtvhbdVh82tFz7cL6pFH5kiRo6g5bidltExqIiQJsoXg0VxZOwAA') format('woff2'),
+     url('/fonts/iconfont/iconfont.woff?t=1577922877079') format('woff'),
+     url('/fonts/iconfont/iconfont.ttf?t=1577922877079') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+     url('/fonts/iconfont/iconfont.svg?t=1577922877079#iconfont') format('svg'); /* iOS 4.1- */
+    }
+    
+    .iconfont {
+       font-family: "iconfont";
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-aboutus:before {
+       content: "\e61f";
+    }
+    
+    .icon-logo_github:before {
+       content: "\e85a";
+    }
